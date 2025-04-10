@@ -1,0 +1,37 @@
+div.conteiner {
+    background-color: lightsalmon;
+
+    display: flex;
+    flex-flow: row wrap;
+}
+
+div.item {
+    background-color: lightskyblue;
+    border: 1px solid black;
+    text-align: center;
+    padding: 30px;
+}
+
+div#i1 {
+    order: 2;
+}
+
+div#i2 {
+    order: 4;
+}
+
+div#i3 {
+    order: 1;
+}
+
+div#i4 {
+    order: 0
+}
+
+div#i5 {
+    order: 3;
+}
+
+div#i6 {
+    order: 5;
+} 

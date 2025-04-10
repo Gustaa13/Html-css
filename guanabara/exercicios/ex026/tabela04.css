@@ -1,0 +1,28 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+table {
+    border-collapse: collapse;
+    width: 400px;
+}
+
+thead {
+    background-color: gray;
+    color: white;
+}
+
+th, td {
+    border: 1px solid black;
+    text-align: center;
+    padding: 5px;
+}
+
+td.materia {
+    text-align: left;
+}
+
+tr.media {
+    background-color: gray;
+    color: white;
+}
